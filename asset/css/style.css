@@ -107,10 +107,23 @@ background-color: white;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    margin-right: 50px;
 }
 
 .manu-button{
     height: 150px;
     width: 250px;
     margin-left: 300px;
+    margin-right: 50px;
+   }
+   .aid-button{
+    height: 150px;
+    width: 250px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+   }
+   footer{
+    height: 250px;
+    background-color:#16394E;
    }
