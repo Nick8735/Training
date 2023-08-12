@@ -1,8 +1,14 @@
+.main{
+    background-color: #2F6B87ff;
+    margin:0;
+}
 .navbar{
     text-align: right;
+    background-color:#B1C6D7ff ;
 }
 .navbar h1{
     text-align: center;
+   
 }
 .hero img {
     background-size: cover;
@@ -10,6 +16,9 @@
     background-position: center center;
     height: 50vh;
     width: 100%;
+   }
+   .hero{
+    background-color: #B1C6D7ff
    }
    .main-1 {
     display: flex;
@@ -20,7 +29,7 @@
     
 }
 
-.image1 {
+.image-1 {
     flex: 1; 
     margin-right: 20px;
     
@@ -31,8 +40,77 @@
     margin-left: 150px; 
 }
 
-.image1 img {
-    max-width: 100%; 
-    height: auto;
+.image-1 img {
+     height: 450px;
+     width: 100%;
 }
 
+.main-2 {
+    background-color: white;
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 50px;
+    border: 1px solid black;
+  
+}
+
+.chart{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.chart img {
+    height: 550px;
+    width: 900px;
+}
+
+.text-2  {
+    flex: 1;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.main-3 {
+    background-color: #16394E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.main-3 table {
+    width: 100%;
+    max-width: 800px; 
+    padding: auto;
+}
+
+.main-3 img {
+       height: 250px;
+    width: auto;
+    padding: 30px;
+}
+
+.main-3 p {
+    margin: 20px 0;
+}
+.icon-text_1{
+padding: 10px;
+background-color: white;   
+}
+.main-4 h2{
+    text-align: center;
+    padding: 50px;
+}
+.main-4{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.manu-button{
+    height: 150px;
+    width: 250px;
+    margin-left: 300px;
+   }
