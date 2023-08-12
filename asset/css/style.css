@@ -1,0 +1,38 @@
+.navbar{
+    text-align: right;
+}
+.navbar h1{
+    text-align: center;
+}
+.hero img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+    width: 100%;
+   }
+   .main-1 {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgb(177, 198, 215); 
+    
+}
+
+.image1 {
+    flex: 1; 
+    margin-right: 20px;
+    
+}
+
+.text-1 {
+    flex: 1;
+    margin-left: 150px; 
+}
+
+.image1 img {
+    max-width: 100%; 
+    height: auto;
+}
+
