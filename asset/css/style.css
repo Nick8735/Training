@@ -1,27 +1,50 @@
+html{
+    overflow-x: hidden;
+    font-family: 'Climate Crisis', cursive;
+font-family: 'Roboto', sans-serif;
+}
 .main{
     background-color: #2F6B87ff;
-    margin:0;
+    
 }
 .navbar{
     text-align: right;
-    background-color:white ;
-    font-size: 35px;
+       font-size: 25px;
+       
+       
+}
+.navbar a {
+    color: black;
+    font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.navbar-inner{
+    background-color:#7a746a ;
+    
 }
 .navbar img{
      height: 350px; 
  margin-right: 1350px;
+ 
  }
 
 .navbar-outer{
      background-color:#16394E ;
      height: 350px;
 }
+
 .hero img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 2048px;
-    height: 958px;
+    width: 1685px;
+    height: 789px;
    }
    .hero{
     background-color: #B1C6D7ff
@@ -137,7 +160,7 @@ background-color: white;
    }
    footer{
     height: 250px;
-    background-color:#16394E;
+    background-color:#7a746a;
    }
 .instruction-1{
     margin-right: 200px;
