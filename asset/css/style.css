@@ -4,18 +4,24 @@
 }
 .navbar{
     text-align: right;
-    background-color:#B1C6D7ff ;
+    background-color:white ;
+    font-size: 35px;
 }
-.navbar h1{
-    text-align: center;
-   
+.navbar img{
+     height: 350px; 
+ margin-right: 1350px;
+ }
+
+.navbar-outer{
+     background-color:#16394E ;
+     height: 350px;
 }
 .hero img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 50vh;
-    width: 100%;
+    width: 2048px;
+    height: 958px;
    }
    .hero{
     background-color: #B1C6D7ff
@@ -41,8 +47,8 @@
 }
 
 .image-1 img {
-     height: 450px;
-     width: 100%;
+     height: 530px;
+     width: 990px;
 }
 
 .main-2 {
@@ -110,20 +116,29 @@ background-color: white;
     margin-right: 50px;
 }
 
+.main-4_inner{
+    border: 1px solid black;
+    background-color: white;
+    }
+
 .manu-button{
     height: 150px;
     width: 250px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 50px;
    }
    .aid-button{
     height: 150px;
     width: 250px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 50px;
     margin-top: 50px;
+    margin-bottom: 50px;
    }
    footer{
     height: 250px;
     background-color:#16394E;
    }
+.instruction-1{
+    margin-right: 200px;
+}
