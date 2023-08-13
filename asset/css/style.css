@@ -10,8 +10,7 @@ font-family: 'Roboto', sans-serif;
 .navbar{
     text-align: right;
        font-size: 25px;
-       
-       
+            
 }
 .navbar a {
     color: black;
@@ -21,39 +20,67 @@ font-family: 'Roboto', sans-serif;
 	text-transform: normal;
 	letter-spacing: normal;
 	line-height: 1.3em;
-    padding-right: 5px;
+    padding-right: 20px;
     text-decoration: none;
 }
 .navbar-inner{
     background-color:#DDE6ED ;
     border: 1px solid black;
+    position:relative;
       
 }
-.navbar-inner p {
+
+.navbar-inner ul{
+    list-style: none;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10;
+    justify-content: flex-end;
+}
+
+.navbar-inner ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: normal;
+    letter-spacing: normal;
+    line-height: 1.3em; 
+}
+
+.demo-links{
+    display: none;
+    position: absolute;
+     background-color:#DDE6ED ;
+    border: 1px solid black;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+}
+
+.train:hover  .demo-links {
+    display: block;
+}
+
+.train:hover .demo-links{
+    display: block;
 }
 
 p a:first-of-type{
     display: block;
 }
 
-a{
-    display: none;
-}
-p:hover a {
-    display: block;
-}
-
 .navbar img{
-     height: 150px; 
+     height: 250px; 
  margin-right: 1550px;
  
  }
 
 .navbar-outer{
      background-color:#16394E ;
-     height: 150px;
+     height: 250px;
 }
 
 .hero img {
@@ -71,6 +98,7 @@ p:hover a {
     align-items: flex-start; 
     margin-top: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
     background-color: rgb(177, 198, 215); 
     
 }
@@ -103,8 +131,7 @@ p:hover a {
 .main-2 {
     background-color: white;
     display: flex;
-    align-items: flex-start; 
-    margin-top: 50px;
+    align-items: flex-start;     
     border: 1px solid black;
   
 }
@@ -125,9 +152,8 @@ p:hover a {
     flex: 1;
     margin-left: 20px;
     margin-right: 50px;
-     padding: 20px;
-     padding-bottom: 300px;
-        background-color: rgb(177, 198, 215); 
+     padding: 20px;    
+background-color: rgb(177, 198, 215); 
 }
 
 .main-3 {
