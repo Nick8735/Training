@@ -7,22 +7,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script src="asset/css/script/file.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        console.log("DOM Loaded");       
+const trainingDropdown = document.getElementById("trainingDropdown");
+const demoLinks = document.querySelector(".demo-links");
+
+trainingDropdown.addEventListener("click", function () {
+    demoLinks.classList.toggle("show");
+});
+});
+</script>
+<script src="asset/css/script/file.js"></script>
 </head>
 <body>
+    <div class="navbar">
+        <div class="navbar-outer">
+        <img class="logo" src="asset/css/script/images/train-a_skill_logo.png" alt="logo">
+    </div>
     <div class="navbar-inner">
         <ul>
     <li><a href="index.html"><b>Home</b></a></li>
     <li><a href="contact-us.html"><b>contact us</b></a></li>
     <li class="train">
-    <a href="javascript:void(0);"><b>Training</b></a>
+    <a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
     <div class="demo-links">
-     <a href="contact-us.html"><b>Demo ManU</b></a>
-     <a href="contact-us.html"><b>Demo First-Aid</b></a>
+     <a href="contact-us.html"><b>Demo 1</b></a>
+     <a href="contact-us.html"><b>Demo 2</b></a>
     </div>
     </li>
     </ul>
     </div>
+     
+    </p>
+     
+    </div> 
+     </div>
 
     <div class="manu-info">
 <p>
@@ -34,7 +54,18 @@
         <a href="asset/css/script/images/Standard Operating Procedure - Train A Skill.pdf">Manufacturing Procedure PDF</a>
     </div>
     <div>
-       <form action=""></form>
+        <h2>Sign up for your training demo</h2>
+       <form action="">  
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" value="example@hotmail.co.uk"><br><br>
+        <input type="submit" value="Submit">
+    
+    </form>
     </div>
 </body>
 </html>

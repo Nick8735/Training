@@ -7,8 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("DOM Loaded");       
+    const trainingDropdown = document.getElementById("trainingDropdown");
+    const demoLinks = document.querySelector(".demo-links");
+
+    trainingDropdown.addEventListener("click", function () {
+        demoLinks.classList.toggle("show");
+    });
+});
+    </script>
     <script src="asset/css/script/file.js"></script>
-</html>
+</head>
+
 <body>
  <div class="navbar">
     <div class="navbar-outer">
@@ -19,10 +31,10 @@
 <li><a href="index.html"><b>Home</b></a></li>
 <li><a href="contact-us.html"><b>contact us</b></a></li>
 <li class="train">
-<a href="javascript:void(0);"><b>Training</b></a>
+<a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
 <div class="demo-links">
- <a href="contact-us.html"><b>Demo ManU</b></a>
- <a href="contact-us.html"><b>Demo First-Aid</b></a>
+ <a href="contact-us.html"><b>Demo 1</b></a>
+ <a href="contact-us.html"><b>Demo 2</b></a>
 </div>
 </li>
 </ul>
@@ -82,12 +94,12 @@
     <div class="main-4_inner">
  <h2>Train A Skill Demo</h2>
  <table>
-    <tr><td><a href="training.html"><button class="manu-button"><b>Manufacturing Demo</b></button></a></td>
+    <tr><td><a href="training.html"><button class="manu-button"><b>Manufacturing <br> Demo 1</b></button></a></td>
     <td><h3 class="instruction">Instructions</h3><p class="instruction-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nam, nihil libero quo facilis eos enim deserunt debitis a,
          hic ratione alias id quos illo ab voluptatum minima! Eum, voluptas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ducimus totam impedit tempore dolorum officia aliquid eligendi vel iure, maiores animi obcaecati,
           quod dolorem error dolor molestias quis veritatis aliquam!</p></td>
     </tr> 
-    <tr><td><button class="aid-button"><b>First Aid Demo</b></button></td>
+    <tr><td><button class="aid-button"><b>First Aid <br>Demo 2</b></button></td>
         <td><h3 class="Instructions">Instructions</h3><p class="instruction-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nam, nihil libero quo facilis eos enim deserunt debitis a,
              hic ratione alias id quos illo ab voluptatum minima! Eum, voluptas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium ducimus totam impedit tempore dolorum officia aliquid eligendi vel iure, maiores animi obcaecati,
               quod dolorem error dolor molestias quis veritatis aliquam!</p></td>
@@ -101,4 +113,4 @@
     
  </footer>   
 </body>
-</head>
+</html>

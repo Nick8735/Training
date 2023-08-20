@@ -52,12 +52,23 @@ font-family: 'Roboto', sans-serif;
 
 .demo-links{
     display: none;
-    position: absolute;
+     position: absolute;
      background-color:#DDE6ED ;
     border: 1px solid black;
     width: 100%;
-    z-index: 1;
-    left: 0;
+    z-index: 1;    
+    top: 100%;
+   
+   
+   
+}
+.show{
+    display: block;
+}
+
+.train{
+    position:relative;
+    display: inline-block;
 }
 
 .train:hover  .demo-links {
