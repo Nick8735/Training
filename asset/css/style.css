@@ -231,3 +231,33 @@ background-color: white;
 .instruction-1{
     margin-right: 200px;
 }
+.manu-info{
+    border: 1px solid black;
+    margin: 50px 300px 100px 300px;
+    padding: 20px;
+}
+.pdf{
+text-align: center;
+font-size: 28px;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+         
+}
+.sign-up h2 {
+    font-size: 34px;
+}
+.test-1{
+    height: 150px;
+    width: 250px;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+   }
+   .test{
+    text-align: center;
+    margin-right: 150px;
+   }
