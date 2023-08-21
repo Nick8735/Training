@@ -293,3 +293,19 @@ font-size: 28px;
     height: 200px;
     margin-top: 40px;
   }
+
+  .conclusion{
+margin-bottom: 50px;
+margin-right: 350px;
+  }
+
+  .conclusion h3 {
+    font-weight: bold;
+  }
+.sop{
+margin-left: 20px;
+}
+.m-button{
+    margin-bottom: 50px;
+    
+}
