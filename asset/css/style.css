@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
     
 }
 .navbar{
-    text-align: right;
+    text-align: center;
        font-size: 25px;
             
 }
@@ -35,8 +35,8 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 10;
-    justify-content: flex-end;
+    padding: 0;
+    justify-content: center;
 }
 
 .navbar-inner ul li a {
@@ -50,6 +50,17 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.3em; 
 }
 
+.navbar-inner ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;}
+
+    .navbar-inner ul li {
+        margin: 0 20px;} 
+
 .demo-links{
     display: none;
      position: absolute;
@@ -58,12 +69,12 @@ font-family: 'Roboto', sans-serif;
     width: 100%;
     z-index: 1;    
     top: 100%;
-   
-   
-   
-}
-.show{
-    display: block;
+  
+
+  } 
+  .logo{ 
+ margin: 0 auto;
+ 
 }
 
 .train{
@@ -84,14 +95,18 @@ p a:first-of-type{
 }
 
 .navbar img{
-     height: 250px; 
- margin-right: 1550px;
- 
- }
+     height: 250px;  }
+
+
 
 .navbar-outer{
-     background-color:#16394E ;
-     height: 250px;
+    background-color: #16394E;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero img {
@@ -126,7 +141,7 @@ p a:first-of-type{
     margin-right: 100px;
     background-color: white;
     height: 530px; 
-    border: 1px solid black;
+   
 }
 
 .text-1 h2{
@@ -143,7 +158,7 @@ p a:first-of-type{
     background-color: white;
     display: flex;
     align-items: flex-start;     
-    border: 1px solid black;
+   
   
 }
 
@@ -205,8 +220,7 @@ background-color: white;
     margin-right: 50px;
 }
 
-.main-4_inner{
-    border: 1px solid black;
+.main-4_inner{   
     background-color: white;
     }
 
@@ -232,7 +246,7 @@ background-color: white;
     margin-right: 200px;
 }
 .manu-info{
-    border: 1px solid black;
+   
     margin: 50px 300px 100px 300px;
     padding: 20px;
 }
