@@ -3,10 +3,11 @@ const questions = [
         question: "What should be worn on your hands when operating the printing machine?",
         answers:[
             { text: "Gloves", correct: true },
-            { text: "Alchol gel", correct: false },
+            { text: "Alcohol gel", correct: false },
             { text: "Nail polish", correct: false },
             { text: "A ring", correct: false },
-        ]
+        ],
+        infoLink: "process-m.html"
     },
     {    question: "What must you follow when turning the machine on?",
         answers:[
@@ -26,7 +27,7 @@ const questions = [
         ]
     },
     {
-        question: "What most be inspected post printing?",
+        question: "What must be inspected post printing?",
         answers:[
             { text: "That all operators are present", correct: false },
             { text: "Footwear", correct: false },
@@ -58,7 +59,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
-nextButton.innerHTML = "NEXT";
+nextButton.style.display = "none";
 showQuestion();
 }
 function showQuestion(){
@@ -74,12 +75,17 @@ currentQuestion.answers.forEach(answer => {
     button.innerHTML = answer.text;
     button.classList.add("btn");
     answerButtons.appendChild(button);
+    if (currentQuestion.userAnswer === answer.text) {
+        button.classList.add("user-answer");    }
     if(answer.correct){
         button.dataset.correct = answer.correct;
     }
-    button.addEventListener("click", selectAnswer);
+    button.addEventListener("click", () => selectAnswer(answer.text));
+    answerButtons.appendChild(button);
     
 });
+
+
 }
 
 function resetState(){
@@ -89,27 +95,44 @@ function resetState(){
     }
 }
 
-function selectAnswer(e){
-    const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
-    if(isCorrect){
-        selectedBtn.classList.add("correct");
-        score++;
-    }else{
-        selectedBtn.classList.add("incorrect");
+
+    function selectAnswer(answerText) {
+        const selectedBtn = answerButtons.querySelector(`button[data-correct="true"]`);
+    
+        if (selectedBtn && selectedBtn.textContent === answerText) {
+            selectedBtn.classList.add("correct");
+            score++;
+            nextButton.style.display = "block";
+        } else {
+            selectedBtn.classList.add("incorrect");
+            if (!selectedBtn.classList.contains("learn-more")) {
+                const infoLink = document.createElement("a");
+                infoLink.href = "process-m.html";
+                infoLink.textContent = " Learn more";
+                selectedBtn.appendChild(infoLink);
+                selectedBtn.classList.add("learn-more");
+            }
+            nextButton.style.display = "none";
+        }
     }
+        
+    
     Array.from(answerButtons.children).forEach(button => {
-if(button.dataset.correct === "true"){
-button.classList.add ("correct");
-}
-button.disabled = true;
+        if (button.dataset.correct === "true") {
+            button.classList.add("correct");
+        }
+        button.disabled = true;
     });
-nextButton.style.display = "block";
-}
+    nextButton.style.display = "block";
+
+
+
+
 function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "play again";
+    nextButton.innerHTML = "Home"
     nextButton.style.display = "block"
 }
 
@@ -117,9 +140,12 @@ function handleNextButton(){
 currentQuestionIndex++;
 if(currentQuestionIndex < questions.length){
 showQuestion();
+nextButton.style.display = "none"
 }else{ 
     showScore();
 }
+nextButton.innerHTML = "Next";
+
 }
 
 nextButton.addEventListener("click", ()=>{
