@@ -22,7 +22,7 @@ const questions = [
         answers:[
             { text: "You are wearing socks", correct: false },
             { text: "The power is on", correct: false },
-            { text: "That a batch number i present", correct: false },
+            { text: "That a batch number is present", correct: false },
             { text: "Type and colour of ink are loaded into the ink reservoirs", correct: true },
         ]
     },
