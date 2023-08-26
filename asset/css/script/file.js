@@ -1,48 +1,48 @@
 const questions = [
     {
-        question: "Which is larger?",
+        question: "What should be worn on your hands when operating the printing machine?",
         answers:[
-            { text: "shark", correct: false },
-            { text: "fish", correct: false },
-            { text: "nick", correct: true },
-            { text: "goldfish", correct: false },
+            { text: "Gloves", correct: true },
+            { text: "Alchol gel", correct: false },
+            { text: "Nail polish", correct: false },
+            { text: "A ring", correct: false },
         ]
     },
-    {    question: "who is the biggest pain?",
+    {    question: "What must you follow when turning the machine on?",
         answers:[
-            { text: "james", correct: false },
-            { text: "brandon", correct: false },
-            { text: "mani", correct: true },
-            { text: "theo", correct: false },
-        ]
-    },
-    {
-    question: "What is more than 3?",
-        answers:[
-            { text: "1", correct: false },
-            { text: "2", correct: false },
-            { text: "mani", correct: true },
-            { text: "1.1", correct: false },
+            { text: "First Aid memoir", correct: false },
+            { text: "Google", correct: false },
+            { text: "Manufactuer's instructions", correct: true },
+            { text: "A co-worker", correct: false },
         ]
     },
     {
-        question: "What is more than 3?",
+    question: "What must you ensure is correct when setting up the ink?",
         answers:[
-            { text: "1", correct: false },
-            { text: "2", correct: false },
-            { text: "mani", correct: true },
-            { text: "1.1", correct: false },
+            { text: "You are wearing socks", correct: false },
+            { text: "The power is on", correct: false },
+            { text: "That a batch number i present", correct: false },
+            { text: "Type and colour of ink are loaded into the ink reservoirs", correct: true },
+        ]
+    },
+    {
+        question: "What most be inspected post printing?",
+        answers:[
+            { text: "That all operators are present", correct: false },
+            { text: "Footwear", correct: false },
+            { text: "Printed output for any defects, smudging, or misalignment", correct: true },
+            { text: "What PPE must be worn", correct: false },
         ]
 
 
     },
     {
-        question: "What is more than 3?",
+        question: "What cleaning and maintenance is required post order closure?",
         answers:[
-            { text: "1", correct: false },
-            { text: "2", correct: false },
-            { text: "mani", correct: true },
-            { text: "1.1", correct: false },
+            { text: "Power off the machine following the manufacturer's instructions", correct: false },
+            { text: "Clean the printing machine, including printheads, rollers, and other components", correct: false },
+            { text: "Properly store unused printing materials and ink ", correct: false },
+            { text: "All of the above", correct: true },
         ]
     }
     
@@ -62,6 +62,8 @@ nextButton.innerHTML = "NEXT";
 showQuestion();
 }
 function showQuestion(){
+    resetState();
+
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
