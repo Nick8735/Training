@@ -49,6 +49,21 @@ const questions = [
     
 ];
 
+function showAlertMessage(message) {
+    const alertMessageElement = document.getElementById('alertMessage');
+    const alertContent = alertMessageElement.querySelector('p');
+    
+    alertContent.textContent = message;
+    alertMessageElement.style.display = 'block';
+}
+const closeAlertButton = document.getElementById('closeAlert');
+
+closeAlertButton.addEventListener('click', () => {
+    const alertMessageElement = document.getElementById('alertMessage');
+    alertMessageElement.style.display = 'none';
+});
+  
+
 const questionElement = document.getElementById("question")
 const answerButtons = document.getElementById("answer-buttons")
 const nextButton = document.getElementById("next-btn")
@@ -104,16 +119,31 @@ function resetState(){
             score++;
             nextButton.style.display = "block";
         } else {
-            selectedBtn.classList.add("incorrect");
+            const selectedAnswerButton = answerButtons.querySelector(`button[data-correct="true"]`);
+            selectedAnswerButton.classList.add("incorrect");
+
             if (!selectedBtn.classList.contains("learn-more")) {
                 const infoLink = document.createElement("a");
                 infoLink.href = "process-m.html";
                 infoLink.textContent = " Learn more";
                 selectedBtn.appendChild(infoLink);
                 selectedBtn.classList.add("learn-more");
+                const selectedAnswerButton = answerButtons.querySelector(`button`)
+                showAlertMessage("Incorrect answer, please review the document and start again")
+               
+                selectedAnswerButton.disabled = true;
+               // alert("Incorrect answer please review document and start again");
+              
+               Array.from(answerButtons.children).forEach(button => {
+                button.disabled = true;
+            });
             }
+
             nextButton.style.display = "none";
+          
+
         }
+      
     }
         
     
@@ -121,6 +151,7 @@ function resetState(){
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
+        button.addEventListener("click", (event) => selectAnswer(answer.text, event.target));
         button.disabled = true;
     });
     nextButton.style.display = "block";
@@ -155,4 +186,8 @@ nextButton.addEventListener("click", ()=>{
         startQuiz(); 
     }  
     })
+
+
+
+    
 startQuiz();
