@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("DOM Loaded");       
+    const trainingDropdown = document.getElementById("trainingDropdown");
+    const demoLinks = document.querySelector(".demo-links");
+
+    trainingDropdown.addEventListener("click", function () {
+        demoLinks.classList.toggle("show");
+    });
+});
+    </script>
+   
+</head>
+
+<body>
+ <div class="navbar">
+    <div class="navbar-outer">
+    <img class="logo" src="asset/css/script/images/train-a_skill_logo.png" alt="logo">
+</div>
+<div class="navbar-inner">
+    <ul>
+<li><a href="index.html"><b>Home</b></a></li>
+<li><a href="contact-us.html"><b>contact us</b></a></li>
+<li class="train">
+<a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
+<div class="demo-links">
+ <a href="training.html"><b>Demo 1</b></a>
+ <a href="training-2.html"><b>Demo 2</b></a>
+</div>
+</li>
+</ul>
+</div> 
+</p> 
+</div> 
+ </div>
+ <div class="cert">
+    <h1>Congratulations</h1>
+    <h2>You have completed the Manufaturing Test</h2>
+    <p>First Name: <span id="fname">First Name</span></p>
+    <p>Last Name: <span id="lname">Last Name</span></p>
+    <p>Email: <span id="email">Email</span></p>
+ </div>
+ <script src="asset/css/script/file.js"></script>
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const nameSpan = document.getElementById("fname");
+        const lnameSpan = document.getElementById("lname");
+        const emailSpan = document.getElementById("email");
+
+        if (urlParams.has("fname")) {
+            nameSpan.textContent = urlParams.get("fname");
+        }
+        if (urlParams.has("lname")) {
+            lnameSpan.textContent = urlParams.get("lname");
+        }
+        if (urlParams.has("email")) {
+            emailSpan.textContent = urlParams.get("email");
+        }
+    });
+</script>
+
+
+ </body>
+ </html>
+ 
+ </body>
+ </html>

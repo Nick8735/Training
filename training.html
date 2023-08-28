@@ -53,17 +53,12 @@
     </div>
     <div class="sign-up">
         <h2>Sign up for your training demo</h2>
-       <form action="">  
-
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" value="example@hotmail.co.uk"><br><br><br>
-        <input type="submit" value="Submit" >
-    
-    </form>  
+        <form id="certificateForm">          
+            <input type="text" id="fname" name="fname" value="John">
+            <input type="text" id="lname" name="lname" value="Doe">
+            <input type="email" id="email" name="email" value="example@hotmail.co.uk">
+<button type="button" id="submitForm">submit</button>
+        </form>
     </div>
     <div class="test">
     <a href="m-test.html"><button class="test-1"><b>Start Test </b></button></a>
@@ -72,5 +67,18 @@
     
     </footer> 
     <script src="asset/css/script/file.js"></script> 
+    <script>      
+      document.addEventListener("DOMContentLoaded", function() {
+        const submitButton = document.getElementById("submitForm");
+
+        submitButton.addEventListener("click", function () {
+            const fname = document.getElementById("fname").value;
+            const lname = document.getElementById("lname").value;
+            const email = document.getElementById("email").value;
+
+            const redirectURL = `certificate.html?fname=${encodeURIComponent(fname)}&lname=${encodeURIComponent(lname)}&email=${encodeURIComponent(email)}`;
+            window.location.href = redirectURL;
+        });
+    });</script>
 </body>
 </html>
