@@ -179,15 +179,15 @@ nextButton.style.display = "none"
 }else{ 
     showScore();
 }
-nextButton.innerHTML = "Next";
+nextButton.innerHTML = currentQuestionIndex < questions.length  ? "Next" : "Complete";
 
 }
 
 nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < questions.length){
+    if(currentQuestionIndex < questions.length ){
         handleNextButton();
     }else{ 
-        startQuiz(); 
+        window.location.href = "training.html"; 
     }  
     })
 
