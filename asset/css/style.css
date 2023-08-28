@@ -380,22 +380,16 @@ color: #fff;
 
 .correct{
     background: #9aeabc;
-    }
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+    
     .incorrect{
-        background: #9aeabc;
+        background:  #FF0800;
+        font-size: large;
+        font-weight: bold;
+        color: black;
     }
-    .hidden {
-        display: none;
-      }
-      
-      #alertMessage {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        padding: 20px;
-        border: 1px solid gray;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
+
       

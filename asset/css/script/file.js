@@ -111,8 +111,10 @@ function resetState(){
 }
 
 
-    function selectAnswer(answerText) {
-        const selectedBtn = answerButtons.querySelector(`button[data-correct="true"]`);
+function selectAnswer(answerText) {
+    const selectedBtn = answerButtons.querySelector(`button[data-correct="true"]`);
+
+    const clickedButton = Array.from(answerButtons.children).find(button => button.textContent === answerText);
     
         if (selectedBtn && selectedBtn.textContent === answerText) {
             selectedBtn.classList.add("correct");
@@ -120,14 +122,16 @@ function resetState(){
             nextButton.style.display = "block";
         } else {
             const selectedAnswerButton = answerButtons.querySelector(`button[data-correct="true"]`);
-            selectedAnswerButton.classList.add("incorrect");
+            selectedAnswerButton.classList.add("correct");
 
-            if (!selectedBtn.classList.contains("learn-more")) {
+            if (clickedButton && clickedButton !== selectedBtn) {
+                clickedButton.classList.add("incorrect");
                 const infoLink = document.createElement("a");
                 infoLink.href = "process-m.html";
                 infoLink.textContent = " Incorrect answer, please review document and try again";
                 selectedBtn.appendChild(infoLink);
                 selectedBtn.classList.add("learn-more");
+                
                 //const selectedAnswerButton = answerButtons.querySelector(`button`)
                // showAlertMessage("Incorrect answer, please review the document and start again")
                
