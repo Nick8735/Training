@@ -49,19 +49,19 @@ const questions = [
     
 ];
 
-function showAlertMessage(message) {
-    const alertMessageElement = document.getElementById('alertMessage');
-    const alertContent = alertMessageElement.querySelector('p');
+//function showAlertMessage(message) {
+   // const alertMessageElement = document.getElementById('alertMessage');
+    //const alertContent = alertMessageElement.querySelector('p');
     
-    alertContent.textContent = message;
-    alertMessageElement.style.display = 'block';
-}
-const closeAlertButton = document.getElementById('closeAlert');
+    //alertContent.textContent = message;
+    //alertMessageElement.style.display = 'block';
+//}
+//const closeAlertButton = document.getElementById('closeAlert');
 
-closeAlertButton.addEventListener('click', () => {
-    const alertMessageElement = document.getElementById('alertMessage');
-    alertMessageElement.style.display = 'none';
-});
+//closeAlertButton.addEventListener('click', () => {
+   // const alertMessageElement = document.getElementById('alertMessage');
+    //alertMessageElement.style.display = 'none';
+//});
   
 
 const questionElement = document.getElementById("question")
@@ -125,13 +125,13 @@ function resetState(){
             if (!selectedBtn.classList.contains("learn-more")) {
                 const infoLink = document.createElement("a");
                 infoLink.href = "process-m.html";
-                infoLink.textContent = " Learn more";
+                infoLink.textContent = " Incorrect answer, please review document and try again";
                 selectedBtn.appendChild(infoLink);
                 selectedBtn.classList.add("learn-more");
-                const selectedAnswerButton = answerButtons.querySelector(`button`)
-                showAlertMessage("Incorrect answer, please review the document and start again")
+                //const selectedAnswerButton = answerButtons.querySelector(`button`)
+               // showAlertMessage("Incorrect answer, please review the document and start again")
                
-                selectedAnswerButton.disabled = true;
+               // selectedAnswerButton.disabled = true;
                // alert("Incorrect answer please review document and start again");
               
                Array.from(answerButtons.children).forEach(button => {
@@ -151,8 +151,8 @@ function resetState(){
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
-        button.addEventListener("click", (event) => selectAnswer(answer.text, event.target));
-        button.disabled = true;
+        //button.addEventListener("click", (event) => selectAnswer(answer.text, event.target));
+        //button.disabled = true;
     });
     nextButton.style.display = "block";
 
