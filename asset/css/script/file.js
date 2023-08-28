@@ -187,7 +187,7 @@ nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length ){
         handleNextButton();
     }else{ 
-        window.location.href = "training.html"; 
+        window.location.href = "certificate.html"; 
     }  
     })
 
