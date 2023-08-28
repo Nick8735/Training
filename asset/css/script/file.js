@@ -128,7 +128,7 @@ function selectAnswer(answerText) {
                 clickedButton.classList.add("incorrect");
                 const infoLink = document.createElement("a");
                 infoLink.href = "process-m.html";
-                infoLink.textContent = " Incorrect answer, please review document and try again";
+                infoLink.textContent = " Incorrect answer, press here to review document and try again";
                 selectedBtn.appendChild(infoLink);
                 selectedBtn.classList.add("learn-more");
                 
