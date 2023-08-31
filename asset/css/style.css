@@ -243,6 +243,20 @@ background-color: white;
     height: 250px;
     background-color:#7a746a;
    }
+ 
+.social-icons a {
+    font-size: 50px; 
+       color: #333; 
+    text-decoration: none;
+    margin-left: 300px;
+    padding: 50px;
+    padding-top: 50px;
+}
+
+.social-icons a:hover {
+    color: #007bff; 
+}
+
 .instruction-1{
     margin-right: 200px;
 }
