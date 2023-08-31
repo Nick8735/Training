@@ -42,37 +42,8 @@
 </p> 
 </div> 
  </div>
- <div class="cert">
-    <h1>Congratulations</h1>
-    <h2>You have completed the Manufaturing Test</h2>
-    <p>First Name: <span id="fname">First Name</span></p>
-    <p>Last Name: <span id="lname">Last Name</span></p>
-    <p>Email: <span id="email">Email</span></p>
- </div>
- <script src="asset/css/script/file.js"></script>
-<script>
- document.addEventListener("DOMContentLoaded", function () {
-        const urlParams = new URLSearchParams(window.location.search);
-
-        const nameSpan = document.getElementById("fname");
-        const lnameSpan = document.getElementById("lname");
-        const emailSpan = document.getElementById("email");
-
-        if (urlParams.has("fname")) {
-            nameSpan.textContent = urlParams.get("fname");
-        }
-        if (urlParams.has("lname")) {
-            lnameSpan.textContent = urlParams.get("lname");
-        }
-        if (urlParams.has("email")) {
-            emailSpan.textContent = urlParams.get("email");
-        }
-    });
-</script>
-
-
- </body>
- </html>
- 
+<div class="cert">
+    <img src="asset/css/script/images/certificate.png" alt="certificate">
+</div>
  </body>
  </html>

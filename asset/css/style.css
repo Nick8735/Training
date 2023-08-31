@@ -2,6 +2,7 @@ html{
     overflow-x: hidden;
     font-family: 'Climate Crisis', cursive;
 font-family: 'Roboto', sans-serif;
+
 }
 .main{
     background-color: #2F6B87ff;
@@ -404,10 +405,10 @@ color: #fff;
     display: none;
 }
 .cert {
-    border: 1px solid black;
-    
-    text-align: center;
-    margin: 100px;
+  
+    border: 1px solid black ;
+    height: 350px;
+    width: auto;
 }
 .swiper {
     width: 600px;
