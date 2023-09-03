@@ -172,12 +172,19 @@ p a:first-of-type{
 width: 50vw;
 height: 100%;
 align-items: center;
+margin-left: 400px;
 }
 
 .text-2  {
-      
+      display: flex;
      padding: 20px;    
 background-color: rgb(177, 198, 215); 
+
+}
+
+.text-2 h2 {
+    text-align: center;
+    font-size: 30px;
 }
 
 .main-3 {
@@ -185,7 +192,7 @@ background-color: rgb(177, 198, 215);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 50px ;
 }
 
 .main-3 table {
@@ -516,6 +523,7 @@ font-size: 10px;
 }
 .chart {
     order: 2;
+  
 }
 .manu-button{
     margin-left: 10px;
@@ -531,7 +539,9 @@ font-size: 10px;
     height: 150px;
     width: auto;
 }
-.hero{
-  
+
+.chart img{
+    margin: 0;
 }
+
 }
