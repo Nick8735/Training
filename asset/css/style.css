@@ -3,6 +3,7 @@ html{
     font-family: 'Climate Crisis', cursive;
 font-family: 'Roboto', sans-serif;
 
+
 }
 .main{
     background-color: #2F6B87ff;
@@ -114,8 +115,9 @@ p a:first-of-type{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 1685px;
-    height: 789px;
+   
+    width: 100%;
+  
    }
    .hero{
     background-color: #B1C6D7ff
@@ -138,8 +140,8 @@ p a:first-of-type{
 
 .text-1 {
     flex: 1;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25px;
+    margin-right: 50px;
     background-color: #16394E;
     height: 530px; 
     color: white;
@@ -149,11 +151,12 @@ p a:first-of-type{
 .text-1 h2{
     margin: 20px;
     text-align: center;
+   
 }
 
 .image-1 img {
-     height: 530px;
-     width: 990px;
+   width: 50vw;
+   height: 100%;
 }
 
 .main-2 {
@@ -164,22 +167,15 @@ p a:first-of-type{
   
 }
 
-.chart{
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    align-items: flex-start;
-}
 
 .chart img {
-    height: 550px;
-    width: 900px;
+width: 50vw;
+height: 100%;
+align-items: center;
 }
 
 .text-2  {
-    flex: 1;
-    margin-left: 20px;
-    margin-right: 50px;
+      
      padding: 20px;    
 background-color: rgb(177, 198, 215); 
 }
@@ -435,4 +431,107 @@ color: #fff;
     width:100%;
     height:100%;
     object-fit: contain;
+}
+.contact form{
+   text-align: center;
+}
+.input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+  
+}
+
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.social-icons a {
+    font-size: 50px; 
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+.social-icons a:hover {
+    color: #007bff; 
+}
+
+
+@media (max-width: 880px) {
+.main-4{
+   margin:0;
+   padding: 0;
+   margin-right: 0;
+}
+.main-4_inner {
+  font-size: small;
+    padding: 0;
+    margin: 0;
+}
+.text-1 h2{
+    font-size: 19px;
+}
+.text-1{
+    font-size: 10px;
+}
+}
+@media (max-width: 600px) {
+    html{
+font-size: 10px;
+    }
+.main-1{
+    display: flex;
+    flex-direction: column;
+}
+.text-1{
+    order: 2;
+    }
+    .image-1{
+        order: 1;
+        margin: 20px;
+    }
+.main-2{
+    display: flex;
+    flex-direction: column;  
+}
+.text-2{
+    order: 1;
+}
+.chart {
+    order: 2;
+}
+.manu-button{
+    margin-left: 10px;
+    height: 100px;
+    width: auto;
+}
+.aid-button{
+    margin-left: 10px;
+    height: 100px;
+    width: 120px;
+}
+.main-3 img{
+    height: 150px;
+    width: auto;
+}
+.hero{
+  
+}
 }
