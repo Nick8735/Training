@@ -428,12 +428,7 @@ color: #fff;
     height: 350px;
     width: auto;
 }
-.slider{
-    width:90%;
-    height:500px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    margin: 20px auto;
-}
+
 #img{
     width:100%;
     height:100%;
@@ -479,6 +474,7 @@ textarea {
 .social-icons a:hover {
     color: #007bff; 
 }
+
 
 
 @media (max-width: 880px) {
