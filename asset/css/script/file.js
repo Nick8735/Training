@@ -132,12 +132,7 @@ function selectAnswer(answerText) {
                 selectedBtn.appendChild(infoLink);
                 selectedBtn.classList.add("learn-more");
                 
-                //const selectedAnswerButton = answerButtons.querySelector(`button`)
-               // showAlertMessage("Incorrect answer, please review the document and start again")
-               
-               // selectedAnswerButton.disabled = true;
-               // alert("Incorrect answer please review document and start again");
-              
+                           
                Array.from(answerButtons.children).forEach(button => {
                 button.disabled = true;
             });
@@ -149,7 +144,7 @@ function selectAnswer(answerText) {
         }
       
     }
-        
+    module.exports = {selectAnswer};    
     
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
