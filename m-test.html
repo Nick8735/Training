@@ -12,7 +12,9 @@
             console.log("DOM Loaded");       
     const trainingDropdown = document.getElementById("trainingDropdown");
     const demoLinks = document.querySelector(".demo-links");
-
+    const questionElement = document.getElementById("question");
+    const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
     trainingDropdown.addEventListener("click", function () {
         demoLinks.classList.toggle("show");
     });
@@ -50,10 +52,10 @@
     <div class="quiz">
         <h2 id="question">Question goes here</h2>
         <div id="answer-buttons">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
+        <button id="answer1" class="btn">Answer 1</button>
+        <button id="answer2" class="btn">Answer 2</button>
+        <button id="answer3" class="btn">Answer 3</button>
+        <button id="answer4" class="btn">Answer 4</button>
     </div>
         <button id="next-btn">Next</button>
  <button id="complete-btn">Complete</button>
