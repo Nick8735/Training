@@ -176,9 +176,11 @@ margin-left: 400px;
 }
 
 .text-2  {
-      display: flex;
+    
      padding: 20px;    
 background-color: rgb(177, 198, 215); 
+margin-left: 25px;
+margin-bottom: 25px;
 
 }
 
@@ -422,11 +424,10 @@ color: #fff;
     cursor: pointer;
     display: none;
 }
-.cert {
-  
+.cert img {  
     border: 1px solid black ;
-    height: 350px;
-    width: auto;
+    width: 100%;
+    height: auto;   
 }
 
 #img{
@@ -476,7 +477,6 @@ textarea {
 }
 
 
-
 @media (max-width: 880px) {
 .main-4{
    margin:0;
@@ -493,6 +493,9 @@ textarea {
 }
 .text-1{
     font-size: 10px;
+}
+.conclusion{
+    margin-right: 0;
 }
 }
 @media (max-width: 600px) {
@@ -514,13 +517,7 @@ font-size: 10px;
     display: flex;
     flex-direction: column;  
 }
-.text-2{
-    order: 1;
-}
-.chart {
-    order: 2;
-  
-}
+
 .manu-button{
     margin-left: 10px;
     height: 100px;
@@ -532,12 +529,28 @@ font-size: 10px;
     width: 120px;
 }
 .main-3 img{
-    height: 150px;
+    height: 100px;
     width: auto;
+    padding: 0;
+}
+.text-2 h2{
+    font-size: 20px;
 }
 
 .chart img{
     margin: 0;
 }
 
+.logo{
+    margin: 0;
+}
+.instruction-1{
+    margin-right: 0;
+}
+.navbar a{
+    padding: 0;
+}
+.navbar-outer{
+    align-items: normal;
+}
 }
