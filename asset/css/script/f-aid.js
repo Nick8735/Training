@@ -64,9 +64,9 @@ const questions = [
 //});
   
 
-const questionElement = document.getElementById("question")
-const answerButtons = document.getElementById("answer-buttons")
-const nextButton = document.getElementById("next-btn")
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -167,15 +167,15 @@ function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "play again";
-    nextButton.innerHTML = "Home"
-    nextButton.style.display = "block"
+    nextButton.innerHTML = "Home";
+    nextButton.style.display = "block";
 }
 
 function handleNextButton(){
 currentQuestionIndex++;
 if(currentQuestionIndex < questions.length){
 showQuestion();
-nextButton.style.display = "none"
+nextButton.style.display = "none";
 }else{ 
     showScore();
 }
@@ -189,7 +189,7 @@ nextButton.addEventListener("click", ()=>{
     }else{ 
         window.location.href = "f-certificate.html"; 
     }  
-    })
+    });
 
 
 

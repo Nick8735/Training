@@ -1,3 +1,4 @@
+/* eslint-disable esversion: 6 */
 
 const questions = [{
         answers: [{
@@ -201,8 +202,7 @@ function handleNextButton() {
     } else {
         showScore();
     }
-    nextButton.innerHTML = currentQuestionIndex 
-    < questions.length ? "Next" : "Complete";
+    nextButton.innerHTML = currentQuestionIndex < questions.length ? "Next" : "Complete";
 }
 
 nextButton.addEventListener("click", () => {
