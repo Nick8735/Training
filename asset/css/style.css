@@ -554,3 +554,10 @@ font-size: 10px;
     align-items: normal;
 }
 }
+@media (max-width: 330px) {
+.navbar-inner ul  {
+flex-wrap: wrap;
+}
+
+}
+
