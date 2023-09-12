@@ -68,7 +68,7 @@ Frequent Visitor
 
 <img src="asset/css/script/images/Palette.png" alt="home-page" style="width:550px;"/>
 
-1. I picked the colour scheme because I wanted to get an office feel with and collective colours that keep the user at ease.
+1. I chose the color palette to create an office ambiance and selected shades that promote user comfort and a sense of togetherness.
 
 ### Imagery
 
@@ -105,57 +105,61 @@ Frequent Visitor
 
 1. Page 7 has also been change for the live production, original plan was for a pop up to be used to show incorrect answer however, this was not going to be suitable for a small device and the pop was removed and the incorrect answer now gets highlighted. A link is also shown and the next button removed so that the user is sent back to the procedure to review.
 
-<br>
-<br>
 
-## Areas I focused on for changing design
+## Areas that changed during development
 
-* Merged content to create 3 pages instead of 5.
-* Created a hero image on each of the 3 pages.
-* Replaced images with images from shutterstock.
-* Changed the input section to only be on the contact page.
-* Simplified Nav-Bar
-* created more specific margins and padding.
-* Changed the colour of the messages to stand out.
-
-
-## How will I approach the design phase in the future?
-
-<br>
-
-* Prioritizing user experience is crucial, and an excessive number of pages can hinder users in finding their desired information.
-
-* I intend to allocate more time to market research, as I found that drawing inspiration from other Autism charity websites greatly assisted me in selecting the appropriate design.
-
-*  I will exercise greater caution when choosing imagery and ensure that I have a diverse range of backup images available in case any resolution issues arise later on.
-
-* I will dedicate more consideration to how the code aligns with the design and its functionality, ensuring a cohesive and seamless integration. 
+* I made the choice to have the procedure flow at the start of the demo instead of a page that is not on the same access line.
+* Removed the pop-up from the quiz page for an incorrect answer to better support user access for mobile devices.
+* Removed the failed test page, this would of been a waste of time for the user.
+* Added a link on any single incorrect answer and halted the test for user to re-train.
+* Added Nav bar above hero image.
+* Removed the signup demo screen which would be added if backend was available.
 
 # Features
 
-* Hero image - Bright and colourful to attact user to venture deeper.
+* Nav-Bar - Professional and centered for user focus.
 
-![Hero Image](asset/Images/readme-images/hero-readme.png)
+![Nav-Bar](asset/css/script/images/nav-bar.png)
 
-* Nav-Bar simple and eay to use.
-![Nav-Bar](asset/Images/readme-images/nav-bar.png)
+* Nav-Bar dropdown with access to two demo pages.
 
-* Interactive elements, cards on the home page have links that will take you to the specific sections to aide user travel.
-![Interactive Cards](asset/Images/readme-images/card.png)
+![Nav-Bar_dropdown](asset/css/script/images/nav-bar_dropdown.png)
 
-* User return appeal. The website incorporates real-life experiences shared by users through the contact page, with each section showcasing a unique message. This approach ensures consistent updates and provides users with a compelling reason to revisit the site.
+* Purpose of website and why the user needs to explore more.
 
-![Real Life Experience ](asset/Images/readme-images/rle.png)
+![Mission](asset/css/script/images/mission.png)
 
-* The contact page on the website aligns with the site's theme and offers users the opportunity to actively participate by sharing their stories and experiences in supporting a child with Autism.
+ * Staff stories on the importance of training to help give the user the feel of independant advice.
 
-![Contact](asset/Images/readme-images/contact.png)
+![Relate ](asset/css/script/images/relate-user.png)
 
- * Thank you page stays with the theme of the site and thanks the user for sharing a story or experience.
+* Site objective demonstration buttons where the user will depart on leqarning journey and will understand the capabilities of the website.
 
- ![Thank you](asset/Images/readme-images/thank-you.png)
+![Demo's](asset/css/script/images/training_demos.png)
 
- * Website responsive on all device sizes.
+* Procedure will be a simplified process for either manufacturing or first-aid, user will read and undertand the procedure before moving onto the test.
+
+![Procedure](asset/css/script/images/procedure.png)
+
+ * Test to confrim users understanding of the procedure and a showcase of how the system would work if implemented into a orginisation.
+
+ ![Test](asset/css/script/images/test.png)
+
+* End of test and score confirmation. 
+
+![End](asset/css/script/images/end_state.png)
+
+* Certificate for user completion, incentive and evidence. 
+
+![Cert](asset/css/script/images/cert.png)
+
+* Contact page. 
+
+![Contact](asset/css/script/images/contact.png)
+
+* Confirmation of contact page submit. 
+
+![Contact_submit](asset/css/script/images/thank_you.png)
 
 # Technologies Used
 
@@ -163,19 +167,25 @@ Frequent Visitor
 
 * HTML5
 * CSS3
+* JS
 
 ## Frameworks, Libraries & Programs Used
 
 1. Bootstrap 4.4.1
 * Bootstrap was used to support only with the Nav Bar and Footer.
 2. Git
-* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. - In the future, I will exercise more discretion in utilizing commits and focus on providing more detailed commits that highlight significant code milestones.
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
 3. GitHub
 * Github was used to store project coding after being pushed.
-4. Figma 
-*  Figma was used to support with design and planning.
+4. Balsamic
+*  Balsamic was used to support with design and planning.
 5. Shutterstock 
-* Shutterstock was used to format images. 
+* Shutterstock was used to format images.
+6. W3Schools 
+* supported with adding link to function in JS.
+* supported with avice on Stopping of the next button function when incorrect answer is performed.
+
+
 
 # Testing
 
@@ -205,7 +215,77 @@ Errors were for not using the correct values for 3 CSS elements.
 
 ![CSS validation no errors](asset/Images/readme-images/css-no_errors.png)
 
-## Further Testing
+## User Stories Testing
+
+* Test 1
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to use Nav-Bar to access Demo's 1 and 2 | Dropdown will appear and links will take user to destination |   As expected |
+
+<details><summary>Test 1</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-1.mp4" controls="controls">
+</details>
+
+<br>
+
+* Test 2
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to navigate to demo button and open Manufacturing Procedure. | Procedure page will be visable. |   As expected |
+
+<details><summary>Test 2</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-2.mp4" controls = "controls">
+</details>
+
+<br>
+
+Test 3
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to navigate to test button and select manufacturing test 1. | Test page will be visable. |   As expected |
+
+<details><summary>Test 3</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-3.mp4" controls = "controls">
+</details>
+
+<br>
+
+* Test 4
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to select the correct answer which will then highlight green. | Answer highlighted in green. |   As expected |
+
+<details><summary>Test 4</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-4.mp4" controls = "controls">
+</details>
+
+<br>
+
+* Test 5
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to select the wrong answer. | correct answer will highlight in green, incorrect answer will highlight in red and link back to procedure will be visable within correct answer. The next button will not show for the next question|   As expected |
+
+<details><summary>Test 5</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-5.mp4" controls = "controls">
+</details>
+
+<br>
+
+* Test 6
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Complete question 5. | Next screen will show the result and inform user test complete|   As expected |
+
+<details><summary>Test 6</summary>
+<video src="" controls = "controls">
+</details>
 
 * The Website was tested to ensure all interactive areas worked and operated as designed.
 * Friends and family were asked to review the website to check for any bugs.
