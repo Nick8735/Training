@@ -161,6 +161,15 @@ Frequent Visitor
 
 ![Contact_submit](asset/css/script/images/thank_you.png)
 
+## Future Updates
+
+1. Having a data capture system which allows users to veiw overall test completion.
+2. Sign up sheet that allows the user to have a personalised certificate on completion, this will support traceability of completed tests.
+3. A way to input new procedures and tests, maybe an online form.
+4. Timed testing.
+5. Work instruction training set out a bit differently but tested the same way.
+6. Set individual training goals.
+
 # Technologies Used
 
 ## Languages Used
@@ -189,31 +198,46 @@ Frequent Visitor
 
 # Testing
 
+### HTML
+
 The W3C Markup Validator was used to validate every page of HTML code.
 
-Most errors were found on the support page as the examples shown below.
-
-Main error was the use of the anchor as a descendant of the button element.
-
-I found the answer on [Stack overflow](https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element) which is a open forum for coding support.
-
-Other errors were a range of unclosed divs.
-
-![HTML validation error](asset/Images/readme-images/errors.png)
+* 0 errors with only one warning which has no impact on the user or integrity on the site.
 
 
-![HTML validation no errors](asset/Images/readme-images/html-no_errors.png)
+![HTML validation no errors](asset/css/script/images/html-warning.png)
 
 
 ### CSS
 
 * The following shows CSS errors found at W3C Validator: 
 
-Errors were for not using the correct values for 3 CSS elements. 
+Errors were for oversights in my code. 
 
-![CSS validation errors](asset/Images/readme-images/css-errors.png)
+![CSS validation errors](asset/css/script/images/css-validation.png)
 
-![CSS validation no errors](asset/Images/readme-images/css-no_errors.png)
+* Errors rectified and validation complete.
+
+![CSS validation no errors](asset/css/script/images/css-no_errors.png)
+
+
+### JS 
+
+* The following validation was done with JS Hint.
+
+* The following errors found were for missing semicolon that was an oversight that has now been corrected.
+
+![JS validation errors](asset/css/script/images/js-errors.png)
+<br>
+<br>
+<br>
+
+* Errors corrected
+
+![JS validation errors](asset/css/script/images/js-validation_no-error.png)
+
+
+
 
 ## User Stories Testing
 
@@ -432,45 +456,13 @@ Errors were for not using the correct values for 3 CSS elements.
 <video src="asset/css/asset/doc/user-storie_testing/test-18.mp4" controls = "controls">
 </details>
 
-
-* The Website was tested to ensure all interactive areas worked and operated as designed.
-* Friends and family were asked to review the website to check for any bugs.
-* Each page was validated through google lighthouse.
-
-* Home Page
-
-![Home Page](asset/Images/readme-images/lighthouse-home.png)
-
-* Support page
-
-![Support Page](asset/Images/readme-images/lighthouse-support.png)
-
-* Contact page
-
-![Contact Page](asset/Images/readme-images/lighthouse-contact.png)
-
 ## User Feedback
 
 * Website was accessed by multiple family and friends who gave the following feedback for bugs and suggestions.
 
-| Page      | Issue/Suggestion | comment                                 |
-|-----------|------------------|-----------------------------------------|
-| Support   | Spelling Mistake | Fundamentals spelt wrong                |
-| All Pages | Grammar          | Capital A for Autism throughout         |
-| Support   | Suggestion       | Can you bullet point the school section |
-| Support   | Missing link     | Autism.org is this a hyperlink          |
-| Support   | Grammar          | Sleep Paragraph too large               |
-| All       | Suggestions      | Images are not diverse enough           |
-| Support   | Grammar          | Capital letter for Getting Dressed      |
-| All       | Suggestion       | Change Meltdown to child in crisis      |
+1. Andrew - The website is very simple and easy to use, as a shift manager I need to be confident that the systems we use for training will result in skilled workers. The way the system is presented pushes the user to leanr when unsure. My only criticism was a question that could of been easily misconstured for something else which you re-worded.
 
-
-
-Website was supplied to two health care professionals who gave the following feedback:
-
-1. Rachel - The website shows some brilliant points and using the twist of a forum is a great idea for sharing and communicating. I do have a suggestion for an update, I think having a section behaviours and looking at the different types of Autism can affect children in different ways. As an example children who are non-verbal communicate in ways such as crying and body movements.
-
-2. Christine - I think it is brilliant youve gone into great detail and covered areas most parents can relate too. ASD is not text book and every child can be different and having the option of information not selected just by the developer will help with sharing that knowledge and information that sometimes would be kept private. PECs cards are an amazing support for children who have not yet found their voice. Good Work!!
+2. Wendy - I believe this kind of training system is a must for businesses with large amounts of employees. Updates down the line I would like to see some statistics of who has completed the tests and who has struggled. This would help me understand which of my employees need more support. Great job! 
 
 # Deployment
 
@@ -525,11 +517,9 @@ $ git clone https://github.com/Nick8735/Autism-Project
 
 * [Bootstrap5.3](https://getbootstrap.com/) Used to support with navigation bar.
 
-* [National Autism Society](https://www.autism.org.uk/) for resource and ideas for plan and design.
-
-* [Tom Tag](https://orkidideas.com/) for use of support props as mentioned in getting dressed section.
-
 * [Shutterstock](https://www.shutterstock.com/) for all images.
+
+* [Balsamiq](https://balsamiq.com/) For Wireframes.
 
 ## Content
 

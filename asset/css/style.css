@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 24px;
 	font-style: normal;
 	font-weight: normal;
-	text-transform: normal;
+	text-transform: none;
 	letter-spacing: normal;
 	line-height: 1.3em;
     padding-right: 20px;
@@ -47,7 +47,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: normal;
-    text-transform: normal;
+    text-transform: none;
     letter-spacing: normal;
     line-height: 1.3em; 
 }
@@ -128,13 +128,14 @@ p a:first-of-type{
     margin-top: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
+    margin-right: 50px;
     background-color: rgb(177, 198, 215); 
     
 }
 
 .image-1 {
     flex: 1; 
-    margin-right: 20px;
+    
     
 }
 
@@ -145,6 +146,8 @@ p a:first-of-type{
     background-color: #16394E;
     height: 530px; 
     color: white;
+    line-height: 40px;
+    
    
 }
 
@@ -200,7 +203,7 @@ margin-bottom: 25px;
 .main-3 table {
     width: 100%;
     max-width: 800px; 
-    padding: auto;
+   
 }
 
 .main-3 img {
@@ -347,8 +350,7 @@ margin-left: 20px;
 }
 
 .app h1{
-    font-weight: 25px;
-    color: #001e4d;
+       color: #001e4d;
     font-weight: 600;
     border-bottom: 1px solid #333;
     padding-bottom: 30px; 
