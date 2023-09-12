@@ -217,7 +217,7 @@ Errors were for not using the correct values for 3 CSS elements.
 
 ## User Stories Testing
 
-* Test 1
+## Test 1
 
 |Action                                         |                       Expected Result                        | Actual Result |
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
@@ -229,7 +229,7 @@ Errors were for not using the correct values for 3 CSS elements.
 
 <br>
 
-* Test 2
+## Test 2
 
 |Action                                         |                       Expected Result                        | Actual Result |
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
@@ -241,7 +241,7 @@ Errors were for not using the correct values for 3 CSS elements.
 
 <br>
 
-Test 3
+## Test 3
 
 |Action                                         |                       Expected Result                        | Actual Result |
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
@@ -253,7 +253,7 @@ Test 3
 
 <br>
 
-* Test 4
+## Test 4
 
 |Action                                         |                       Expected Result                        | Actual Result |
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
@@ -265,7 +265,7 @@ Test 3
 
 <br>
 
-* Test 5
+## Test 5
 
 |Action                                         |                       Expected Result                        | Actual Result |
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
@@ -277,15 +277,161 @@ Test 3
 
 <br>
 
-* Test 6
+## Test 6
 
 |Action                                         |                       Expected Result                        | Actual Result |
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Complete question 5. | Next screen will show the result and inform user test complete|   As expected |
 
 <details><summary>Test 6</summary>
-<video src="" controls = "controls">
+<video src="asset/css/asset/doc/user-storie_testing/test-6.mp4" controls = "controls">
 </details>
+
+<br>
+
+## Test 7
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Press complete button. | Next screen will show a certificate|   As expected |
+
+<details><summary>Test 7</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-7.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 8
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Press Home button from Nav-Bar. | Be taken to Home screen|   As expected |
+
+<details><summary>Test 8</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-8.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 9
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Press contact us in Nav-Bar. | Be taken to Contact us|   As expected |
+
+<details><summary>Test 9</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-9.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 10
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Fill in form and submit. | Be taken to thank you page|   As expected |
+
+<details><summary>Test 10</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-10.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 11
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Press Home button in Nav-Bar. | Be taken to Home page|   As expected |
+
+<details><summary>Test 11</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-11.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 12
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| Press incorrect answer on test and select hyperlink. | Be taken to procedure page|   As expected |
+
+<details><summary>Test 12</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-12.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 13
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to navigate to first-aid demo button . | Navigate to procedure page. |   As expected |
+
+<details><summary>Test 13</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-13.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 14
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to navigate to first-aid test button . | Start first-aid test. |   As expected |
+
+<details><summary>Test 14</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-14.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 15
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to select correct answer . | correct answer highlights green and next button appears. |   As expected |
+
+<details><summary>Test 15</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-15.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 16
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to select incorrect answer . | correct answer highlights green and incorrect highlights red, hyperlink appears in correct answer and next button does not appears. |   As expected |
+
+<details><summary>Test 16</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-16.mp4" controls = "controls">
+</details>
+
+<br>
+
+## Test 17
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to select incorrect answer and select hyperlink. | correct answer highlights green and incorrect highlights red, hyperlink appears in correct answer and next button does not appears. Hyperlink will take me to the procedure page |   As expected |
+
+<details><summary>Test 17</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-17.mp4" controls = "controls">
+</details>
+
+
+<br>
+
+## Test 18
+
+|Action                                         |                       Expected Result                        | Actual Result |
+|:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
+| I want to select each icon in the footer. | Be taken to each social media page |   As expected |
+
+<details><summary>Test 18</summary>
+<video src="asset/css/asset/doc/user-storie_testing/test-18.mp4" controls = "controls">
+</details>
+
 
 * The Website was tested to ensure all interactive areas worked and operated as designed.
 * Friends and family were asked to review the website to check for any bugs.
