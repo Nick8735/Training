@@ -439,9 +439,9 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select incorrect answer and select hyperlink. | correct answer highlights green and incorrect highlights red, hyperlink appears in correct answer and next button does not appears. Hyperlink will take me to the procedure page |   As expected |
 
-<summary>Test 17</summary>
+<details><summary>Test 17</summary>
 <video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-17.mp4" controls = "controls">
-
+</details>
 
 
 <br>
