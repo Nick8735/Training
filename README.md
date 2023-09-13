@@ -259,9 +259,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to navigate to demo button and open Manufacturing Procedure. | Procedure page will be visable. |   As expected |
 
-<details><summary>Test 2</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-2.mp4" controls = "controls">
-</details>
+![Test 2](asset/css/asset/doc/user-storie_testing/test-2.gif)
 
 <br>
 
@@ -271,9 +269,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to navigate to test button and select manufacturing test 1. | Test page will be visable. |   As expected |
 
-<details><summary>Test 3</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-3.mp4" controls = "controls">
-</details>
+![Test 3](asset/css/asset/doc/user-storie_testing/test-3.gif)
 
 <br>
 
@@ -283,9 +279,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select the correct answer which will then highlight green. | Answer highlighted in green. |   As expected |
 
-<details><summary>Test 4</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-4.mp4" controls = "controls">
-</details>
+![Test 4](asset/css/asset/doc/user-storie_testing/test-4.gif)
 
 <br>
 
@@ -295,10 +289,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select the wrong answer. | correct answer will highlight in green, incorrect answer will highlight in red and link back to procedure will be visable within correct answer. The next button will not show for the next question|   As expected |
 
-<details><summary>Test 5</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-5.mp4" controls = "controls">
-</details>
-
+![Test 5](asset/css/asset/doc/user-storie_testing/test-5.gif)
 <br>
 
 ## Test 6
@@ -307,9 +298,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Complete question 5. | Next screen will show the result and inform user test complete|   As expected |
 
-<details><summary>Test 6</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-6.mp4" controls = "controls">
-</details>
+![Test 6](asset/css/asset/doc/user-storie_testing/test-6.gif)
 
 <br>
 
@@ -319,10 +308,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Press complete button. | Next screen will show a certificate|   As expected |
 
-<details><summary>Test 7</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-7.mp4" controls = "controls">
-</details>
-
+![Test 7](asset/css/asset/doc/user-storie_testing/test-7.gif)
 <br>
 
 ## Test 8
@@ -331,9 +317,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Press Home button from Nav-Bar. | Be taken to Home screen|   As expected |
 
-<details><summary>Test 8</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-8.mp4" controls = "controls">
-</details>
+![Test 8](asset/css/asset/doc/user-storie_testing/test-8.gif)
 
 <br>
 
@@ -343,9 +327,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Press contact us in Nav-Bar. | Be taken to Contact us|   As expected |
 
-<details><summary>Test 9</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-9.mp4" controls = "controls">
-</details>
+![Test 9](asset/css/asset/doc/user-storie_testing/test-9.gif)
 
 <br>
 
@@ -355,9 +337,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Fill in form and submit. | Be taken to thank you page|   As expected |
 
-<details><summary>Test 10</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-10.mp4" controls = "controls">
-</details>
+![Test 10](asset/css/asset/doc/user-storie_testing/test-10.gif)
 
 <br>
 
@@ -367,10 +347,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Press Home button in Nav-Bar. | Be taken to Home page|   As expected |
 
-<details><summary>Test 11</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-11.mp4" controls = "controls">
-</details>
-
+![Test 11](asset/css/asset/doc/user-storie_testing/test-11.gif)
 <br>
 
 ## Test 12
@@ -379,10 +356,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | Press incorrect answer on test and select hyperlink. | Be taken to procedure page|   As expected |
 
-<details><summary>Test 12</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-12.mp4" controls = "controls">
-</details>
-
+![Test 12](asset/css/asset/doc/user-storie_testing/test-12.gif)
 <br>
 
 ## Test 13
@@ -391,10 +365,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to navigate to first-aid demo button . | Navigate to procedure page. |   As expected |
 
-<details><summary>Test 13</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-13.mp4" controls = "controls">
-</details>
-
+![Test 13](asset/css/asset/doc/user-storie_testing/test-13.gif)
 <br>
 
 ## Test 14
@@ -403,10 +374,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to navigate to first-aid test button . | Start first-aid test. |   As expected |
 
-<details><summary>Test 14</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-14.mp4" controls = "controls">
-</details>
-
+![Test 14](asset/css/asset/doc/user-storie_testing/test-14.gif)
 <br>
 
 ## Test 15
@@ -415,10 +383,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select correct answer . | correct answer highlights green and next button appears. |   As expected |
 
-<details><summary>Test 15</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-15.mp4" controls = "controls">
-</details>
-
+![Test 15](asset/css/asset/doc/user-storie_testing/test-15.gif)
 <br>
 
 ## Test 16
@@ -427,9 +392,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select incorrect answer . | correct answer highlights green and incorrect highlights red, hyperlink appears in correct answer and next button does not appears. |   As expected |
 
-<details><summary>Test 16</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-16.mp4" controls = "controls">
-</details>
+![Test 16](asset/css/asset/doc/user-storie_testing/test-16.gif)
 
 <br>
 
@@ -439,9 +402,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select incorrect answer and select hyperlink. | correct answer highlights green and incorrect highlights red, hyperlink appears in correct answer and next button does not appears. Hyperlink will take me to the procedure page |   As expected |
 
-<details><summary>Test 17</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-17.mp4" controls = "controls">
-</details>
+![Test 17](asset/css/asset/doc/user-storie_testing/test-17.gif)
 
 
 <br>
@@ -452,9 +413,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select each icon in the footer. | Be taken to each social media page |   As expected |
 
-<details><summary>Test 18</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-18.mp4" controls = "controls">
-</details>
+![Test 18](asset/css/asset/doc/user-storie_testing/test-18.gif)
 
 ## User Feedback
 
