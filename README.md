@@ -259,9 +259,9 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to navigate to demo button and open Manufacturing Procedure. | Procedure page will be visable. |   As expected |
 
-
+<details><summary>Test 2</summary>
 <video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-2.mp4" controls = "controls">
-
+</details>
 
 <br>
 
