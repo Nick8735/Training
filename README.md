@@ -247,9 +247,9 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to use Nav-Bar to access Demo's 1 and 2 | Dropdown will appear and links will take user to destination |   As expected |
 
-<details><summary>Test 1</summary>
-<video src="/workspace/Training/asset/css/asset/doc/user-storie_testing/test-1.mp4" controls="controls">
-</details>
+
+![Test 1](asset/css/asset/doc/user-storie_testing/test-1.gif)
+
 
 <br>
 
