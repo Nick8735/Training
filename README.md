@@ -461,13 +461,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you cpoied in step 3
 
-$ git clone https://github.com/Nick8735/Autism-Project
+$ git clone https://github.com/Nick8735/Training
 
 
 Press Enter. Your local clone will be created.
 
 
-$ git clone https://github.com/Nick8735/Autism-Project
+$ git clone https://github.com/Nick8735/Training
 
 
 * Cloning into `CI-Clone`...
