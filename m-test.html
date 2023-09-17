@@ -1,67 +1,70 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            console.log("DOM Loaded");       
-    const trainingDropdown = document.getElementById("trainingDropdown");
-    const demoLinks = document.querySelector(".demo-links");
-    const questionElement = document.getElementById("question");
-    const answerButtons = document.getElementById("answer-buttons");
-const nextButton = document.getElementById("next-btn");
-    trainingDropdown.addEventListener("click", function () {
-        demoLinks.classList.toggle("show");
-    });
-});
+            console.log("DOM Loaded");
+            const trainingDropdown = document.getElementById("trainingDropdown");
+            const demoLinks = document.querySelector(".demo-links");
+            const questionElement = document.getElementById("question");
+            const answerButtons = document.getElementById("answer-buttons");
+            const nextButton = document.getElementById("next-btn");
+            trainingDropdown.addEventListener("click", function () {
+                demoLinks.classList.toggle("show");
+            });
+        });
     </script>
-   
+
 </head>
 
 <body>
- <div class="navbar">
-    <div class="navbar-outer">
-    <img class="logo" src="asset/css/script/images/train-a_skill_logo.png" alt="logo">
-</div>
-<div class="navbar-inner">
-    <ul>
-<li><a href="index.html"><b>Home</b></a></li>
-<li><a href="contact-us.html"><b>contact us</b></a></li>
-<li class="train">
-<a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
-<div class="demo-links">
-    <a href="process-m.html"><b>Demo 1</b></a>
-    <a href="process-f.html"><b>Demo 2</b></a>
-</div>
-</li>
-</ul>
-</div>
- 
-</p>
- 
-</div> 
- </div>
- 
- <div class="app">
-    <h1>Manufacturing Test</h1>
-    <div class="quiz">
-        <h2 id="question">Question goes here</h2>
-        <div id="answer-buttons">
-        <button id="answer1" class="btn">Answer 1</button>
-        <button id="answer2" class="btn">Answer 2</button>
-        <button id="answer3" class="btn">Answer 3</button>
-        <button id="answer4" class="btn">Answer 4</button>
+    <div class="navbar"><!-- NavBar -->
+        <div class="navbar-outer">
+            <img class="logo" src="asset/css/script/images/train-a_skill_logo.png" alt="logo">
+        </div>
+        <div class="navbar-inner">
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="contact-us.html"><b>Contact us</b></a></li>
+                <li class="train">
+                    <a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
+                    <div class="demo-links">
+                        <a href="process-m.html"><b>Demo 1</b></a>
+                        <a href="process-f.html"><b>Demo 2</b></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        </p>
+
     </div>
-        <button id="next-btn">Next</button>
- <button id="complete-btn">Complete</button>
     </div>
- </div>
- <script src="asset/css/script/file.js"></script> 
- 
- </body>
- </html>
+<!-- Placeholder for question set in JS and buttons -->
+    <div class="app">
+        <h1>Manufacturing Test</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button id="answer1" class="btn">Answer 1</button>
+                <button id="answer2" class="btn">Answer 2</button>
+                <button id="answer3" class="btn">Answer 3</button>
+                <button id="answer4" class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+            <button id="complete-btn">Complete</button>
+        </div>
+    </div>
+    <script src="asset/css/script/file.js"></script>
+
+</body>
+
+</html>

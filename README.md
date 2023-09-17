@@ -236,8 +236,14 @@ Errors were for oversights in my code.
 
 ![JS validation errors](asset/css/script/images/js-validation_no-error.png)
 
+### Lighthouse testing
 
+* Lighthouse shows areas could be improved regarding some images positioning and file sizes which could affect the durability of the website if in the red.
+* Main objective for myself was to have an accessibility score of over 90% as seen by the foillowing images the site has a score of 98%.
 
+![Lighthouse 1](asset/css/script/images/lighthouse-1.png)
+
+![Lighthouse 2](asset/css/script/images/lighthouse-2.png)
 
 ## User Stories Testing
 

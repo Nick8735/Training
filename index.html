@@ -1,126 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Links to attach css file and fonts -->
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- for font use -->
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-..." crossorigin="anonymous">
     <script>
+    // JS to support with navbar drop down        
         document.addEventListener("DOMContentLoaded", function () {
-            console.log("DOM Loaded");       
-    const trainingDropdown = document.getElementById("trainingDropdown");
-    const demoLinks = document.querySelector(".demo-links");
+            console.log("DOM Loaded");
+            const trainingDropdown = document.getElementById("trainingDropdown");
+            const demoLinks = document.querySelector(".demo-links");
 
-    trainingDropdown.addEventListener("click", function () {
-        demoLinks.classList.toggle("show");
-    });
-});
-
-
+            trainingDropdown.addEventListener("click", function () {
+                demoLinks.classList.toggle("show");
+            });
+        });
     </script>
-    
+
 </head>
 
-<body>
- <div class="navbar">
-    <div class="navbar-outer">
-    <img class="logo" src="asset/css/script/images/train-a_skill_logo.png" alt="logo">
-</div>
-<div class="navbar-inner">
-    <ul>
-<li><a href="index.html"><b>Home</b></a></li>
-<li><a href="contact-us.html"><b>contact us</b></a></li>
-<li class="train">
-<a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
-<div class="demo-links">
- <a href="process-m.html"><b>Demo 1</b></a>
- <a href="process-f.html"><b>Demo 2</b></a>
-</div>
-</li>
-</ul>
-</div>
-</div> 
-  <div class="hero">
-    <img src="asset/css/script/images/hero.jpg" alt="hero"></div>
-  
- <div class="main-1">
-    <div class="image-1">   
-<img src="asset/css/script/images/train.jpg" alt="train">
-</div>
-<div class="text-1">
-   <h2><b>How can we help your business grow?</b></h2><br>
-    <ul>
-        <li>Train A Skill is here to help you design your training plan</li>
-        <li>You set the training time</li>
-        <li>Easy to upload documents ready to be trained by your teams</li>
-        <li>Detailed re-training on corrections, ensuring students are provided with the information for any incorrect answers</li>
-        <li>Simple navigation, allows a more efficent training enviroment</li>
-        <li>Custom requirements can be agreed to make the system more suitable for your business</li>
-    </ul>
-</div>
-</div>
+<body><!-- NavBar -->
+    <div class="navbar">
+        <div class="navbar-outer">
+            <img class="logo" src="asset/css/script/images/train-a_skill_logo.png" alt="logo">
+        </div>
+        <div class="navbar-inner">
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="contact-us.html"><b>Contact us</b></a></li>
+                <li class="train">
+                    <a href="javascript:void(0);" id="trainingDropdown"><b>Training</b></a>
+                    <div class="demo-links">
+                        <a href="process-m.html"><b>Demo 1</b></a>
+                        <a href="process-f.html"><b>Demo 2</b></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero"> <!-- Hero image -->
+        <img src="asset/css/script/images/hero.jpg" alt="hero"></div>
 
+    <div class="main-1">
+        <div class="image-1">
+            <img src="asset/css/script/images/train.jpg" alt="train">
+        </div>
+        <div class="text-1">
+            <h2><b>How can we help your business grow?</b></h2><br>
+            <ul>
+                <li>Train A Skill is here to help you design your training plan</li>
+                <li>You set the training time</li>
+                <li>Easy to upload documents ready to be trained by your teams</li>
+                <li>Detailed re-training on corrections, ensuring students are provided with the information for any
+                    incorrect answers</li>
+                <li>Simple navigation, allows a more efficent training enviroment</li>
+                <li>Custom requirements can be agreed to make the system more suitable for your business</li>
+            </ul>
+        </div>
+    </div>
 
-<div class="main-2">
-    <div class="chart">
-        <img src="asset/css/script/images/Reskilling_Upskilling_Training-Chart_8.png" alt="chart">
-           <div class="text-2">
-           <h2>Training is vital to your business</h2>
-                <p> 
-                    Training fuels business success, fostering growth, innovation, and staff development amid evolving tech and industry shifts. The key to effective training is choosing the right resources, which directly impact quality and relevance. <br>
+<!-- Further segragated areas for user experience-->
+    <div class="main-2">
+        <div class="chart">
+            <img src="asset/css/script/images/Reskilling_Upskilling_Training-Chart_8.png" alt="chart">
+            <div class="text-2">
+                <h2>Training is vital to your business</h2>
+                <p>
+                    Training fuels business success, fostering growth, innovation, and staff development amid evolving
+                    tech and industry shifts. The key to effective training is choosing the right resources, which
+                    directly impact quality and relevance. <br>
 
-<br>Selecting the right trainers, materials, and methods ensures employees receive current, business-aligned knowledge. A vetted training resource not only imparts knowledge but also boosts employee confidence and credibility. <br>
+                    <br>Selecting the right trainers, materials, and methods ensures employees receive current,
+                    business-aligned knowledge. A vetted training resource not only imparts knowledge but also boosts
+                    employee confidence and credibility. <br>
 
-<br>Additionally, user-friendly training systems are crucial. Complex processes lead to frustration, hindering learning. A streamlined system empowers staff to grasp concepts efficiently, enhancing comprehension and retention. <br>
+                    <br>Additionally, user-friendly training systems are crucial. Complex processes lead to frustration,
+                    hindering learning. A streamlined system empowers staff to grasp concepts efficiently, enhancing
+                    comprehension and retention. <br>
 
-<br>Training enhances business and employee capabilities. The quest for apt resources guarantees precision, relevance, and alignment with business goals. We're here to support your training needs at Train A Skill! <br>
-                    </p>
+                    <br>Training enhances business and employee capabilities. The quest for apt resources guarantees
+                    precision, relevance, and alignment with business goals. We're here to support your training needs
+                    at Train A Skill! <br>
+                </p>
             </div>
         </div>
-</div>
+    </div>
 
+<!-- Table to support with positioning and styling -->
+    <div class="main-3">
+        <table>
+            <tr>
+                <td><img src="asset/css/script/images/manager-modified.png" alt="manager"></td>
+                <td>
+                    <p class="icon-text_1">As the Manufacturing manager, it is my responsibility to ensure that all
+                        staff are trained, and I am confident in their abilities. Having a training system that is
+                        simple to use and understand really supports efficient and accurate learning, which supports
+                        fast environments such as a manufacturing plant. Also, the customizability of the training
+                        system means we can easily modify procedures and upload effortlessly.<b> - Kate - Manufacturing
+                            Manager</b>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="asset/css/script/images/operator-modified.png" alt="operator"></td>
+                <td>
+                    <p class="icon-text_1">It is really important that the system is simple to use; we have to work with
+                        so many difficult and complicated systems. "Train A Skill" is a breath of fresh air. I also like
+                        the fact that if I get a question wrong on an SOP, I can easily revisit the area in the SOP I
+                        need to re-read. <b> - Tom - Manufacturing Operator</b>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- interactive area with buttons for user to progress into website -->
+    <div class="main-4">
+        <div class="main-4_inner">
+            <h2>Train A Skill Demo</h2>
+            <table>
+                <tr>
+                    <td>
+                        <form action="process-m.html"><button class="manu-button"><b>Manufacturing <br> Demo
+                                    1</b></button></form>
+                    </td>
+                    <td>
+                        <h3 class="instruction">Instructions</h3>
+                        <p class="instruction-1">To start the Manufacturing demo please press the Demo 1 button, this
+                            will take you to the Manufacturing procedure. Read the full procedure and complete the
+                            Manufacturing test to get a brief insight into the Train A Skill system.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="process-f.html"><button class="aid-button"><b>First Aid <br>Demo 2</b></button>
+                        </form>
+                    </td>
+                    <td>
+                        <h3 class="Instructions">Instructions</h3>
+                        <p class="instruction-1"> To start the First-Aid demo please press the Demo 2 button, this will
+                            take you to the First-Aid procedure. Read the full procedure and complete the First-Aid test
+                            to get a brief insight into the Train A Skill system. </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
-<div class="main-3">
-    <table>  
-   <tr> <td><img src="asset/css/script/images/manager-modified.png" alt="manager"></td>
-  <td><p class="icon-text_1">As the Manufacturing manager, it is my responsibility to ensure that all staff are trained, and I am confident in their abilities. Having a training system that is simple to use and understand really supports efficient and accurate learning, which supports fast environments such as a manufacturing plant. Also, the customizability of the training system means we can easily modify procedures and upload effortlessly.<b> - Kate - Manufacturing Manager</b>
- </p></td></tr>
- <tr><td>
-    <img src="asset/css/script/images/operator-modified.png" alt="operator"></td>
-    <td><p class="icon-text_1">It is really important that the system is simple to use; we have to work with so many difficult and complicated systems. "Train A Skill" is a breath of fresh air. I also like the fact that if I get a question wrong on an SOP, I can easily revisit the area in the SOP I need to re-read. <b> - Tom - Manufacturing Operator</b>
- </p></td></tr>
-</table>
-</div>
-<div class="main-4">
-    <div class="main-4_inner">
- <h2>Train A Skill Demo</h2>
- <table>
-    <tr><td> <form action="process-m.html"><button class="manu-button"><b>Manufacturing <br> Demo 1</b></button></form></td>
-    <td><h3 class="instruction">Instructions</h3><p class="instruction-1">To start the Manufacturing demo please press the Demo 1 button, this will take you to the Manufacturing procedure. Read the full procedure and complete the Manufacturing test to get a brief insight into the Train A Skill system.</p></td>
-    </tr> 
-    <tr><td><form action="process-f.html"><button class="aid-button"><b>First Aid <br>Demo 2</b></button></form></td>
-        <td><h3 class="Instructions">Instructions</h3><p class="instruction-1"> To start the First-Aid demo please press the Demo 2 button, this will take you to the First-Aid procedure. Read the full procedure and complete the First-Aid test to get a brief insight into the Train A Skill system. </p></td>
-        </tr>     
-</table>
-</div>
- </div>
-
- <footer>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>   
- </footer> 
- <script src="asset/css/script/file.js"></script>
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Footer with links to social media -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="asset/css/script/file.js"></script>
 
 
 </body>
