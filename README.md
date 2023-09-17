@@ -413,7 +413,7 @@ Errors were for oversights in my code.
 |:-----------------------------------------------|:------------------------------------------------------------:|--------------:|
 | I want to select each icon in the footer. | Be taken to each social media page |   As expected |
 
-![Test 18](asset/css/asset/doc/user-storie_testing/test-18.gif)
+![Test 18](asset/css/asset/doc/user-storie_testing/test-18_v2.gif)
 
 ## User Feedback
 
